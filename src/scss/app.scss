@@ -1,0 +1,12 @@
+@import './resources.scss'; // bring in Bootstrap variables
+@import './components/loader.scss';
+
+$darkblue: #162836;
+$lightblue: transparentize($darkblue, 0.3);
+$borderblue: transparentize($darkblue, 0.9);
+$homeTeamColor: #EA2212;
+$awayTeamColor: #00529F;
+
+body {
+    padding-top: 70px;
+}
